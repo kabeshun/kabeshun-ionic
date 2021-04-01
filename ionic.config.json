@@ -1,0 +1,7 @@
+{
+  "name": "kabeshun-ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
