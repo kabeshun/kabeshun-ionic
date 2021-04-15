@@ -1,9 +1,7 @@
 {
-  "name": "kabeshun-ionic",
+  "name": "kabeshun-ionic2",
   "integrations": {
-    "capacitor": {},
     "cordova": {}
   },
-  "type": "angular",
-  "app_id": ""
+  "type": "angular"
 }
