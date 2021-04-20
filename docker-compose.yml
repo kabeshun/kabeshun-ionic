@@ -1,0 +1,17 @@
+version: "3"
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    privileged: true
+    tty: true
+    volumes:
+      - ./:/var/www/html
+    ports:
+      - 8100:8100
+    container_name: ionic-app
+    networks:
+      - ionic_app_net
+networks:
+  ionic_app_net:
